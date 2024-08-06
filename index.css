@@ -81,6 +81,35 @@ box-sizing: border-box;
         
       }  
 
+    footer{
+
+    position: absolute;    
+    background-color: black;
+    }
+
+    #footer{
+    height: auto;
+    width: 97.5%;
+    }
+
+     #rodape{
+        
+        justify-content: center;
+        display: flex;
+        flex-direction: wrap;
+        text-decoration: none;
+        list-style-type: none;
+     }
+
+
+     li{
+        padding-top: 2%;
+        color: white;
+        padding-right: 3%;
+     }
+
+
+
       @media screen and (max-width: 580px) {
 
     .botao{
@@ -107,4 +136,109 @@ box-sizing: border-box;
         margin-right: 30%;
         
       }      
-}      
+}
+
+
+@media screen and (max-width: 980px) {
+    li{
+        padding-top: 3%;
+        color: white;
+        padding-right: 3%;
+     }
+}
+
+
+@media screen and (max-width: 850px) {
+    #footer{
+        height: auto;
+        width: 97%;
+        }
+}
+
+@media screen and (max-width: 780px) {
+    li{
+        padding-top: 3%;
+        color: white;
+        padding-right: 3%;
+     }
+}
+
+
+@media screen and (max-width: 850px) {
+    #footer{
+        height: auto;
+        width: 96.5%;
+        }
+}
+
+@media screen and (max-width: 630px) {
+    #footer{
+        height: auto;
+        width: 96%;
+        }
+
+        li{
+            font-size: 90%;
+        }
+}
+
+@media screen and (max-width: 574px) {
+    #footer{
+        height: auto;
+        width: 95.3%;
+        }
+
+        li{
+            font-size: 80%;
+        }
+
+        #rodape{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            list-style-type: none;
+         }
+}
+
+
+@media screen and (max-width: 480px) {
+    #footer{
+        height: auto;
+        width: 94%;
+        }
+
+        li{
+            font-size: 80%;
+        }
+
+        #rodape{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            list-style-type: none;
+         }
+}
+
+@media screen and (max-width: 480px) {
+    #footer{
+        height: auto;
+        width: 93.5%;
+        }
+
+        li{
+            font-size: 80%;
+        }
+
+        #rodape{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            list-style-type: none;
+         }
+}
