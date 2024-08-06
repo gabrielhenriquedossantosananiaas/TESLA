@@ -1,0 +1,110 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#modely{
+    position: absolute;
+    z-index: 1000;
+    font-size: 280%;
+    font-family: var(--tds-font-family-latin-display);
+    font-weight: 700;
+  
+}
+
+.arrow{
+    text-align: center;
+}
+
+
+
+
+#model3{
+   
+    z-index: 1000;
+    font-size: 280%;
+    font-family: var(--tds-font-family-latin-display);
+    font-weight: 700;
+      
+  }
+
+  #modelx{
+
+    z-index: 1000;
+    font-size: 280%;
+    font-family: var(--tds-font-family-latin-display);
+    font-weight: 700;
+      
+  }
+
+ 
+  #models{
+    color: white;
+
+    z-index: 1000;
+    font-size: 280%;
+    font-family: var(--tds-font-family-latin-display);
+    font-weight: 700;
+      
+  }
+
+ 
+ .modeloy #modely{
+    position: absolute;
+ padding-top: 10%;
+ }
+
+
+
+ .modelo3 #model3{
+    position: absolute;
+    padding-top: 10%;
+    }
+
+    .modelox #modelx{
+        position: absolute;
+        padding-top: 10%;
+        }
+
+        .modelos #models{
+            position: absolute;
+            padding-top: 10%;
+            }
+
+      .botao{
+        position: absolute;
+        margin-top: 50%;
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+        
+      }  
+
+      @media screen and (max-width: 580px) {
+
+    .botao{
+        position: absolute;
+        margin-top: 45%;
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        
+      }      
+}      
+
+@media screen and (max-width: 560px) {
+
+    .botao{
+        position: absolute;
+        margin-top: 40%;
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        
+      }      
+}      
