@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<style>
+    body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+/* CABEÇALHO */
+
+
+
+#vehicless{
+    opacity: 1;
+    overflow-y: hidden;
+}
+
+
+#veiculo:hover + #vehicless{
+    opacity: 1;   
+}
+
+
+
+#barralatera{
+    position: absolute;
+    margin-left: 75%;
+    z-index: 1000;
+    margin-top: 11%;
+}
+
+#barralatera ul{
+ font-size: 100%;
+list-style: none;
+line-height: 0.8;
+}
+
+#barralatera ul li{
+    font-size: 100%;
+   }
+
+#vehicles1{
+    
+    position: absolute;
+    background-color: rgb(23, 153, 88);
+    height: 90%;
+    width: 100%;
+    z-index: 1000000;
+    display: flex;
+    flex-direction: wrap;
+      
+}
+
+
+#modelss{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 20%;
+   font-weight: 700;
+    margin-left: 15%;
+}
+
+
+#modelsss{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 22.2%;
+   text-decoration: underline;
+   opacity: 0.7;
+    margin-left: 14%;
+}
+
+
+#modelssss{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 22.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 18%;
+}
+
+#model33{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 20%;
+    font-weight: 700;
+    margin-left: 38%;
+}
+
+
+#model333{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 22.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 37%;
+}
+
+
+#model3333{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 22.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 41%;
+}
+
+
+
+#modelxx{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 20%;
+    font-weight: 700;
+    margin-left: 60%;
+}
+
+
+#modelxxx{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 22.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 59%;
+}
+
+
+#modelxxxx{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 22.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 63%;
+}
+
+#modelyy{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 34%;
+    font-weight: 700;
+    margin-left: 15%;
+}
+
+
+#modelyyy{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 36.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 14%;
+}
+
+
+#modelyyyy{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 36.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 18%;
+}
+
+
+#modelcy{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 34%;
+    font-weight: 700;
+    margin-left: 38%;
+}
+
+
+#modelcyy{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 36.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 37%;
+}
+
+
+#modelcyyy{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 36.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 41%;
+}
+
+
+#help{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 34%;
+    font-weight: 700;
+    margin-left: 58%;
+}
+
+
+#helpp{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 36.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 59%;
+}
+
+
+#helppp{
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+    z-index: 1000000;
+    margin-top: 36.2%;
+    text-decoration: underline;
+    opacity: 0.7;
+    margin-left: 63%;
+}
+
+
+
+
+
+
+#vehicles2{
+    
+  
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    z-index: 1000000;
+    display: flex;
+    flex-direction: wrap;
+}
+
+#vehicles1 img{
+    margin-top: 10%;
+    margin-right: -6%;
+    margin-left: 8%;
+    width: 20%;
+    height: 25%;
+}
+
+
+#vehicles2 img{
+    margin-right: -6%;
+    margin-left: 8%;
+    width: 20%;
+    margin-top: 24%;
+    height: 25%;
+}
+
+
+
+
+
+#logo{
+    margin-left: 3%;
+    padding-top: 2.2%;
+    position: fixed;
+    z-index: 10000000;
+    height: 6.5vh;
+    width: 20vh;
+}
+
+.cabecalho{
+    background-color: black;
+   height: 10px;
+   width: auto;
+   color: white;
+}
+
+#cabecalho li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.container-fluid{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+     header{
+    
+     z-index: 1000000;
+    position: fixed;    
+    background-color: black;
+    }
+
+    #header{
+    opacity: 1;
+    height: auto;
+    width: 100%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+     #cabecalho{
+        
+        justify-content: center;
+        display: flex;
+        flex-direction: wrap;
+        text-decoration: none;
+        list-style-type: none;
+     }
+
+
+     #cabecalho li{
+        padding-top: 2%;
+        
+        padding-right: 3%;
+        color: white;
+     }
+
+
+
+     header.scrolled {
+        background-color: black; /* Cor do cabeçalho quando rolar */
+        
+    }
+
+    #header.scrolled {
+        transform: scale(1.1);  
+        height: 10%;
+        width: 100%;    
+    }
+
+
+    #logo.scrolled {
+        margin-left: 3%;
+        padding-top: 2.50%;
+        position: fixed;
+        z-index: 10000000;
+        height: 7.2vh;
+        width: auto;
+    }
+
+
+
+
+/* FIM DO CABEÇALHO */
+
+
+
+
+
+#modely{
+    position: absolute;
+    
+    font-size: 280%;
+    font-family: var(--tds-font-family-latin-display);
+    font-weight: 700;
+  
+}
+
+.arrow{
+    text-align: center;
+}
+
+
+
+
+#model3{
+   
+    
+    font-size: 280%;
+    font-family: var(--tds-font-family-latin-display);
+    font-weight: 700;
+      
+  }
+
+  #modelx{
+
+    z-index: 1000;
+    font-size: 280%;
+    font-family: var(--tds-font-family-latin-display);
+    font-weight: 700;
+      
+  }
+
+ 
+  #models{
+    color: white;
+
+    z-index: 1000;
+    font-size: 280%;
+    font-family: var(--tds-font-family-latin-display);
+    font-weight: 700;
+      
+  }
+
+ 
+ .modeloy #modely{
+    position: absolute;
+ padding-top: 10%;
+ }
+
+
+
+ .modelo3 #model3{
+    position: absolute;
+    padding-top: 10%;
+    }
+
+    .modelox #modelx{
+        position: absolute;
+        padding-top: 10%;
+        }
+
+        .modelos #models{
+            position: absolute;
+            padding-top: 10%;
+            }
+
+      .botao{
+        position: absolute;
+        margin-top: 50%;
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+        
+      }  
+
+    footer{
+
+    position: absolute;    
+    background-color: black;
+    }
+
+    #footer{
+    height: auto;
+    width: 100%;
+    }
+
+     #rodape{
+        
+        justify-content: center;
+        display: flex;
+        flex-direction: wrap;
+        text-decoration: none;
+        list-style-type: none;
+     }
+
+
+     li{
+        padding-top: 2%;
+        color: white;
+        padding-right: 3%;
+     }
+
+
+
+      @media screen and (max-width: 580px) {
+
+    .botao{
+        position: absolute;
+        margin-top: 45%;
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        
+      }      
+}      
+
+@media screen and (max-width: 560px) {
+
+    .botao{
+        position: absolute;
+        margin-top: 40%;
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        
+      }      
+}
+
+
+@media screen and (max-width: 980px) {
+    li{
+        padding-top: 3%;
+        color: white;
+        padding-right: 3%;
+     }
+}
+
+
+@media screen and (max-width: 850px) {
+    #footer{
+        height: auto;
+        width: 100%;
+        }
+}
+
+@media screen and (max-width: 780px) {
+    li{
+        padding-top: 3%;
+        color: white;
+        padding-right: 3%;
+     }
+}
+
+
+@media screen and (max-width: 850px) {
+    #footer{
+        height: auto;
+        width: 100%;
+        }
+}
+
+@media screen and (max-width: 630px) {
+    #footer{
+        height: auto;
+        width: 100%;
+        }
+
+        li{
+            font-size: 90%;
+        }
+}
+
+@media screen and (max-width: 574px) {
+    #footer{
+        height: auto;
+        width: 100%;
+        }
+
+        li{
+            font-size: 80%;
+        }
+
+        #rodape{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            list-style-type: none;
+         }
+}
+
+
+@media screen and (max-width: 480px) {
+    #footer{
+        height: auto;
+        width: 100%;
+        }
+
+        li{
+            font-size: 80%;
+        }
+
+        #rodape{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            list-style-type: none;
+         }
+}
+
+@media screen and (max-width: 480px) {
+    #footer{
+        height: auto;
+        width: 100%;
+        }
+
+        li{
+            font-size: 80%;
+        }
+
+        #rodape{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            list-style-type: none;
+         }
+}
+</style>
+
+
+
+
+
+</head>
+<body>
+
+
+
+<div class="container-fluid">
+    <div id="barralatera" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <ul>
+            <li> Inventory </li>
+            <li> Used Cars </li>
+            <li> Demo Drive </li>
+            <li> Trade-in </li>
+            <li> Fleet </li>
+            <li> Semi </li>
+            <li> Roadster </li>
+         </ul>   
+        </div>
+    </div>
+
+
+
+<div id="vehicless" class="container-fluid">
+ <div id="vehicles1" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<img src="vehicles/Models1.avif" alt="" class="img-fluid">
+
+
+<p id="modelss" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    Models S
+</p>
+
+<p id="modelsss" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    Learn 
+</p>
+
+<p id="modelssss" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    Order 
+</p>
+
+<img src="vehicles/Model31.avif" alt="" class="img-fluid">
+
+
+<p id="model33" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    Models 3
+</p>
+
+<p id="model333" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    Learn 
+</p>
+
+<p id="model3333" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    Order 
+</p>
+
+
+<img src="vehicles/Modelx1.avif" alt="" class="img-fluid">
+
+
+<p id="modelxx" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    Models X
+</p>
+
+<p id="modelxxx" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    Learn 
+</p>
+
+<p id="modelxxxx" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    Order 
+</p>
+
+
+</div>
+
+<div id="vehicles2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <img src="vehicles/Modely1.avif" alt="" class="img-fluid">  
+
+    <p id="modelyy" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Models Y
+    </p>
+    
+    <p id="modelyyy" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Learn 
+    </p>
+    
+    <p id="modelyyyy" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Order 
+    </p>
+
+    <img src="vehicles/cybertruck.avif" alt="" class="img-fluid">
+
+    <p id="modelcy" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Cybertruck
+    </p>
+    
+    <p id="modelcyy" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Learn 
+    </p>
+    
+    <p id="modelcyyy" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Order 
+    </p>
+
+    <img src="vehicles/help me choose.avif" alt="" class="img-fluid">
+
+    <p id="help" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Help me choose
+    </p>
+    
+    <p id="helpp" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Learn 
+    </p>
+    
+    <p id="helppp" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Order 
+    </p>
+
+</div>
+
+ </div>   
+</div>
+
+
+<div class="container-fluid">
+    
+    <img src="tesla.svg" alt="" id="logo" class="img-fluid" >
+</div>
+
+
+
+    <div class="container-fluid">
+        <header id="header"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            
+            <ul id="cabecalho"> 
+             <li id="veiculo"> <a href="index.html">Vehicles</a> </li>
+                <li id> <a href="" >Privacy & Legal</a>  </li>
+                <li> <a href="">Vehicle Recalls</a>  </li>
+                <li> <a href="">Contact </a> </li>
+                <li> <a href=""> News</a> </li>
+                <li> <a href="">Location</a>  </li>
+            </ul>
+
+
+            
+        </header>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+    <div class="cabecalho">
+    </div>
+</div>
+
+
+    <div class="container-fluid">
+    <div class="arrow">
+
+
+<div class="modeloy"> 
+
+
+
+    <p id="modely" class="col-12"> Model Y</p>
+
+   <center>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 botao">
+        <button type="button" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 btn btn-light">Order Now</button>
+     <button type="button" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 btn btn-dark">Demo Drive</button>
+     </div>
+   </center>
+   
+
+
+
+     <img src="model-y.avif" alt="" class="col-lg-12 img-fluid"> 
+    
+ 
+
+ </div> 
+
+
+
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+</body>
+</html>
